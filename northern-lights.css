@@ -1,0 +1,30 @@
+/* Type Selector */
+h1 {
+  color: #2b6cb0;
+  font-family: 'Arial', sans-serif;
+  font-size: 2.5rem;
+}
+
+/* Class Selector */
+.main-content {
+  margin: 20px;
+  padding: 15px;
+  background-color: #f0f4f8;
+}
+
+/* Relational Selector */
+main p {
+  font-family: 'Georgia', serif;
+  line-height: 1.6;
+  color: #333333;
+}
+
+/* Styling Links */
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
