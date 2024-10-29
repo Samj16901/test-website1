@@ -1,12 +1,14 @@
 body {
   background: linear-gradient(45deg, #ff69b4, #00008b);
   font-family: 'Arial', sans-serif;
+  color: #ff00ff;
 }
 
 header {
-  background-image: url('DALL·E 2024-10-28 10.52.22.webp');
+  background-image: url('DALL·E 2024-10-28 10.52.22.webp'); /* Added background image */
   background-repeat: repeat;
-  padding: 20px;
+  padding: 50px; /* Increased padding for ugly look */
+  text-align: center;
 }
 
 header p {
@@ -22,28 +24,11 @@ h1 {
   font-size: 2.5rem;
 }
 
-
-.main-content {
-  border: 5px dashed #ff0000;
-  margin: 40px;
-  padding: 5px;
-  background-color: #e2e2e2;
-}
-
-main p {
-  margin-right: 100px;
-  font-family: 'Georgia', serif;
-  line-height: 1.6;
-  color: #333333;
-}
-
-
 img {
   border: 10px solid #00ff00; 
   margin: 20px; 
 }
 
-/* Link Styles */
 a {
   color: #007acc;
   text-decoration: none;
@@ -55,9 +40,14 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Accessibility Adjustments */
 footer {
   font-size: 0.9rem;
   color: #666666;
   margin-top: 20px;
+  border: 5px dotted #ff0000; /* Added inconsistent border */
+}
+
+.main-content {
+  padding: 30px; /* Added padding for ugly look */
+  margin: 50px; /* Added margin for ugly look */
 }

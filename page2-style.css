@@ -1,5 +1,5 @@
 body {
-  background-image: url('DALL·E 2024-10-28 14.23.35.webp'); /* Move background image to body */
+  background-image: url('DALL·E 2024-10-28 14.23.35.webp');
   background-repeat: repeat;
   font-family: 'Arial', sans-serif;
   color: #ff00ff;
@@ -91,7 +91,7 @@ nav a:hover {
 }
 
 .gallery-item {
-  flex: 1 1 calc(33.333% - 20px);
+  flex: auto;
   background-color: #222222;
   color: #ffffff;
   padding: 10px;
